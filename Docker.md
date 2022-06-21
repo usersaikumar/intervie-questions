@@ -2,5 +2,6 @@
 
 ## 
 Docker ps -a 
+docker exec 
 something i will write
 need toadd more

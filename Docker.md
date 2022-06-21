@@ -2,4 +2,4 @@
 
 ## 
 Docker ps -a 
-something i will write
+docker exec 

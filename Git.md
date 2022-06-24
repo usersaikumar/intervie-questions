@@ -1,4 +1,8 @@
 # GIT
+- Source Code Management
+- Version Control System
+- De-Centralized
+
 ## Branching Strategy
 - Trunk Based
 - Feature Branch
@@ -40,6 +44,22 @@
 ## Git Fetch
 ## Git Merge
 ## Git Rebase
+## Git Revert
+## Git Reset
+## Git Stash
+## Git Stash Apply
+## Git Stash drop
+## Git diff
+## Git status
 ## Git Cherrypick
-
+## Git Remote
+## Git Language
+## Git Stages
+## Git Repository
+## Bare Repository
+## Conflict
+## Git Commands
+## Git Config
+## Forking
+## Senario Questions
 

@@ -35,5 +35,11 @@
 - Finally merge your Code
 - Pull Requests preserve a record of the histroical changes to your code
 
+## Git Pull
+## Git Pull Request
+## Git Fetch
+## Git Merge
+## Git Rebase
+## Git Cherrypick
 
 

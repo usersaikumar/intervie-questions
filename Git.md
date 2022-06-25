@@ -131,7 +131,32 @@ git stash drop stash { }
 - git cherry-pick can be useful for undoing changes. 
 - For example, say a commit is accidently made to the wrong branch. You can switch to the correct branch and cherry-pick the commit to where it should belong.
 ## Git diff
+- Comparing changes with git diff
+- By default git diff will show you any uncommitted changes since the last commit.
+- Comparing files between two different commits
+- Comparing two branches
+
+```
+git diff
+git diff commit_id commit_id
+git diff branch_name1..branch_name2
+```
 ## Git status
+- The git status command is a relatively straightforward command. It simply shows you what's been going on with git add and git commit.
+
+```
+git status
+```
+## Git Log
+- The git log command displays committed snapshots.
+
+```
+git log
+git log -n 2
+git log --oneline
+git log <since>..<until>
+git log <file>
+```
 ## Git Remote
 ## Git Language
 ## Git Stages

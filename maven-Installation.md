@@ -13,8 +13,7 @@ interviewbit.com/maven-interview-questions/
 
 
 ## pom file looks like
-
-
+```
 <project>
    ...
    <properties>
@@ -31,7 +30,7 @@ interviewbit.com/maven-interview-questions/
    </dependencies>
    ...
 </project>
-
+```
 ### How does Maven work?
 ```
 - Reading the pom.xml file is the first step.

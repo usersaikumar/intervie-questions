@@ -31,45 +31,39 @@ interviewbit.com/maven-interview-questions/
    ...
 </project>
 ```
-### How does Maven work?
-```
+## How does Maven work?
 - Reading the pom.xml file is the first step.
 - The dependencies mentioned in pom.xml are then downloaded from the central repository into the local - repository.
 - Finally, it builds and generates a report based on the requirements, as well as handles life cycles, phases, goals, plugins, and other tasks.
-```
-### elements are used for creating a pom.xml file?
-```
-project
-modelVersion
-groupId
-artifactId
-version
-dependencies
-dependency
-name
-scope
-packaging
-```
-### the different types of Maven repositories? 
-```
-Local repository
-Central repository
-Remote repository
-```
-### default life cycle
-```
-Validate
-Test
-Compile
-Verify
-Install
-Deploy
-```
+## elements are used for creating a pom.xml file?
 
+- project
+- modelVersion
+- groupId
+- artifactId
+- version
+- dependencies
+- dependency
+- name
+- scope
+- packaging
+## the different types of Maven repositories? 
+
+- Local repository
+- Central repository
+- Remote repository
+## default life cycle
+
+- Validate
+- Test
+- Compile
+- Verify
+- Install
+- Deploy
 
 ## install Java first
 
-```
+
 sudo apt-get update   
 sudo apt install openjdk-8-jre-headless -y
 ```

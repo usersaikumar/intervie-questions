@@ -76,7 +76,6 @@ git merge branch_Name
 ```
 git rebase origin
 ```
-
 ## Git Revert
 
 - The git revert command is a forward-moving undo operation that offers a safe method of undoing changes.
@@ -108,7 +107,6 @@ git stash show -p stash{ }
 git stash branch branch_name stash{ }
 
 ```
-
 ## Git Stash Apply and Git Stash Pop
 - You can reapply previously stashed changes with git stash pop:
 - Alternatively, you can reapply the changes to your working copy and keep them in your stash with git stash apply:
@@ -118,7 +116,6 @@ git stash branch branch_name stash{ }
 git stash pop stash{ }
 git stash apply stash { }
 ```
-
 ## Git Stash drop
 - If you decide you no longer need a particular stash, you can delete it with git stash drop:
 
@@ -167,7 +164,6 @@ git log <file>
 - ```git remote rename <old-name> <new-name>```
 - Pushing to Git remotes
 - ```git push <remote-name> <branch-name>```
- 
 ## Git Language
 - C language
 ## Git Stages
@@ -176,10 +172,13 @@ git log <file>
 - Staged
 - Commited
 ## Git Repository
-
+- Git repository is a place where our files can be stored
+- we need to create a repository from github
+- we can create folder and intialize with git init
 ## Bare Repository
 ## Conflict
-
+- Conflict arrives when any two or more devlopers are working on same file any one might have conflict
+- to resolve need to disuss with each other and changes the file accordingly then back to push again to main
 ## Git Commands
 #### Rename brnach
 ```
@@ -195,6 +194,21 @@ git push origin -u <new-branch-name>
 git push origin -d <old-branch-name>
 ```
 ## Git Config
+```
+git config --global user.name
+```
+```
+git config --global user.email
+```
+```
+git config --global user.name <your_name>
+```
+```
+git config --global user.email <your_email>
+```
 ## Forking
+- it is just like a  Git Clone
+- It is widely used in Open Source
+- we can clone any repository from hub called as Forking
 ## Senario Questions
 

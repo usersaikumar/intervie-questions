@@ -41,8 +41,13 @@
 
 ## Git Pull
 ```
-git pull is a Git command used to update the local version of a repository from a remote.
-git pull fetches (git fetch) the new commits and merges (git merge) these into your local branch.
+git pull is a Git command used to
+update the local version of a repository
+from a remote.
+git pull fetches (git fetch) the new commits 
+and merges (git merge) these into your local branch.
+
+git pull origin
 ```
 ## Git Pull Request
 ```

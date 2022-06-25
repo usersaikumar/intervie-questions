@@ -61,9 +61,9 @@ interviewbit.com/maven-interview-questions/
 - Install
 - Deploy
 
-## install Java first
+## installation
 
-
+```
 sudo apt-get update   
 sudo apt install openjdk-8-jre-headless -y
 ```
@@ -77,8 +77,7 @@ wget https://dlcdn.apache.org/maven/maven-3/3.8.6/binaries/apache-maven-3.8.6-bi
 ```
 sudo tar xzvf apache-maven-3.8.6-bin.tar.gz
 ```
-
-### To confirm
+- To confirm
 ```
 ls /opt/maven/
 ```
@@ -86,8 +85,7 @@ ls /opt/maven/
 cd /home
 vi .bashrc
 ```
-paste below command at bottom of the page
+- paste below command at bottom of the page
 ```
 export PATH=/opt/apache-maven-3.8.6/bin:$PATH 
 ```
-

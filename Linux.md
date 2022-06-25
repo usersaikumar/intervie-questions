@@ -45,3 +45,16 @@
 - Blocked/Wait
 - Terminated/Completed
 - Zombie
+
+## VI Editor
+- Command Mode/Regular Mode
+- Insertion Mode/Edit Mode
+- Ex Mode/Replacement Mode
+
+## file permissions in Linux
+- Read(r)
+- write(w)
+- execute(x)
+
+## What do you mean by the daemons
+- Daemons is Background Process

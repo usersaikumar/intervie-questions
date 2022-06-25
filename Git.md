@@ -159,7 +159,7 @@ git log <file>
 ```
 ## Git Remote
 - The git remote command lets you create, view, and delete connections to other repositories. 
-- Viewing git remote configurations ```git remote``````git remote -v```
+- Viewing git remote configurations ```git remote``` ```git remote -v```
 - Creating and modifying git remote configurations
 - 
 ## Git Language

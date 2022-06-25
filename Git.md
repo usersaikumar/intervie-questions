@@ -4,14 +4,14 @@
 - De-Centralized
 
 ## Branching Strategy
-- Trunk Based
 - Feature Branch
-- Forking
 - Release Branch
 - Git Flow
-- Env Branch
 - GiHub Flow
 
+### Feature Branching
+- This branching type ensures that a particular feature of a project is maintained in a branch.
+- Once the feature is fully validated, the branch is then merged into the main branch.
 ### GitHub Flow
 - Creating a Branch
   - Branches help you work on features, Fix bugs

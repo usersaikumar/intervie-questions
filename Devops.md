@@ -4,6 +4,21 @@
 - Reduce failure rate of releases
 - Quicker recovery time in case of release failures.
 
+## DevOps methodology
+- Stage 1: Plan
+- Stage 2: PoC:
+  - Proof of Concept
+- Stage 3: Follow DevOps:
+
+## Devops CI/CD Pipeline
+- version control, 
+- continuous integration, 
+- continuous testing, 
+- continuous deployment, 
+- continuous delivery, and 
+- continuous monitoring.
+
+
 ## SSH
 - Secure Shell
 - administration Protocal
@@ -73,6 +88,24 @@
     - e-commerce, gaming, entertainement Domains
   - Database query
     - location-based service Domains
+
+## CBD
+- Component-Based Development.
+- Here, developers keep looking for existing well-defined, tested, and verified components of code
+- relieve the developer of developing from scratch.
+
+## differentiate between continuous testing and automation testing
+- Continuous Testing
+  - This is the process of executing all the automated test cases and is done as part of the delivery process.
+- Automation Testing
+  - This is a process that replaces manual testing by helping the developers create test cases that can be run multiple times without manual intervention.
+
+## AWS contribute to DevOps
+- Flexible Resources:
+- Scaling
+- Automation
+- Security
+
 
 
 

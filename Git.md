@@ -160,8 +160,9 @@ git log <file>
 ## Git Remote
 - The git remote command lets you create, view, and delete connections to other repositories. 
 - Viewing git remote configurations ```git remote``` ```git remote -v```
-- Creating and modifying git remote configurations
-- 
+- Creating and modifying git remote configurations ```git remote add <name> <url>``` ```git remote rm <name>``` ```git remote rename <old-name> <new-name>```
+- Pushing to Git remotes```git push <remote-name> <branch-name>```
+ 
 ## Git Language
 - C language
 ## Git Stages

@@ -1,7 +1,7 @@
 # Maven Build Tool
 
 ## more info
-interviewbit.com/maven-interview-questions/
+https://www.interviewbit.com/maven-interview-questions/
 
 ## the core concepts of Maven.
 

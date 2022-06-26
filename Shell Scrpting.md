@@ -33,9 +33,7 @@ echo $variable
 
 ## Shortcuts or Links
 - soft link
-      ln  -s [original filename] [link name]
+```ln  -s [original filename] [link name]```
 - Hard Link
-      ln  [original filename] [link name]
-
-
+```ln [original filename] [link name]``` 
 

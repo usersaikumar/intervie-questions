@@ -129,6 +129,7 @@ git stash drop stash { }
 - Cherry picking is the act of picking a commit from a branch and applying it to another. 
 - git cherry-pick can be useful for undoing changes. 
 - For example, say a commit is accidently made to the wrong branch. You can switch to the correct branch and cherry-pick the commit to where it should belong.
+- ```git cherry-pick commit_id```
 ## Git diff
 - Comparing changes with git diff
 - By default git diff will show you any uncommitted changes since the last commit.
@@ -171,9 +172,10 @@ git log <file>
 - C language
 ## Git Stages
 - Working Area
-- Unstaged
+- Untraked
 - Staged
 - Commited
+- Modified
 ## Git Repository
 - Git repository is a place where our files can be stored
 - we need to create a repository from github

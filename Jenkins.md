@@ -21,7 +21,14 @@
   - Build Triggers
   - Advanced Pipeline Options
   - Pipeline
-## multi brnach Job
+## multi brnach Pipeline Job
+- **Configuration**
+- General
+- Branch Sources
+- Build Configuration
+- Scan Multibranch Pipeline Triggers
+- Orphaned Item Strategy
+- Appearance
 ## Pipeline Types
 ## master slave Concept
 ## Credentials

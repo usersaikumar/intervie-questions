@@ -23,13 +23,17 @@
   - Pipeline
 ## multi brnach Pipeline Job
 - **Configuration**
-- General
-- Branch Sources
-- Build Configuration
-- Scan Multibranch Pipeline Triggers
-- Orphaned Item Strategy
-- Appearance
+  - General
+  - Branch Sources
+  - Build Configuration
+  - Scan Multibranch Pipeline Triggers
+  - Orphaned Item Strategy
+  - Appearance
 ## Pipeline Types
+- Scripted
+```
+
+- Declarative
 ## master slave Concept
 ## Credentials
 ## Confugration

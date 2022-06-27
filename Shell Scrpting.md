@@ -38,3 +38,88 @@ echo $variable
 - Hard Link
   - ```ln [original filename] [link name]``` 
 
+## connect to a database server
+```isql –S serverName –U username –P password```
+##  the command that is used to execute a shell file.
+```
+chmod +x script-name-here.sh 
+./script-name-here.sh
+```
+```
+sh script-name-here.sh
+```
+## ShellScript Commands
+- echo (reflect same message as we mention)
+- tput (alternative command for echo)
+- echo $ # (Number of arguments passed through)
+- **$?** (status of last command)
+- **&** (add at end of command and run in background)
+## Examples
+- How commands will work
+```
+cd
+mkdir bin
+```
+- To clear a screen and give a comment
+```
+cat > earse
+```
+```
+# writing my first shell script
+clear
+echo "your comment"
+```
+```
+chmod +x earse
+```
+```
+./earse
+```
+```
+cp earse ~/bin
+```
+- To show arguments
+```
+cat > aruguments
+```
+```
+#!/bin/sh
+#
+# Script that demos, command line args
+#
+echo "Total number of command line argument are $#"
+echo "$0 is script name"
+echo "$1 is first argument"
+echo "$2 is second argument"
+echo "All of them are :- $*"
+
+```
+```
+chmod +x arguments
+```
+```
+./arguments
+```
+```
+cp arguments ~/bin
+```
+- If Condition
+```
+cat > file_name
+```
+```
+#!/bin/sh
+#
+#Script to print file
+#
+if cat $1
+then
+ echo -e "\n\nFile $1, found and successfully echoed"
+fi
+```
+```
+./file_name
+```
+```
+cp fiel_name ~/bin
+```

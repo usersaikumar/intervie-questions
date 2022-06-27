@@ -17,7 +17,7 @@
     - name
     - image
     - ports
-      - containerPort: 80
+      - containerPort:
 - status
 
 ## creating a pod -- example
@@ -33,4 +33,17 @@ spec:
     ports:
     - containerPort: 80
 ```
+- To run yml file
+```
+kubectl create file.yml
+```
+- To update yml file
+```
+kubectl apply file.yml
+```
+- To delete exsiting pod
+```
+kubectl delete pods
+```
+
 

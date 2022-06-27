@@ -55,6 +55,9 @@ sh script-name-here.sh
 - **$?** (status of last command)
 - **&** (add at end of command and run in background)
 ## Examples
+
+https://www.kau.edu.sa/Files/830/Files/60761_Linux.pdf
+
 - How commands will work
 ```
 cd
@@ -123,3 +126,11 @@ fi
 ```
 cp fiel_name ~/bin
 ```
+## rules
+- looks like
+-eq is equal to                 5 == 6    if test 5 -eq 6   if expr [ 5 -eq 6 ]
+-ne is not equal to             5 != 6    if test 5 -ne 6   if expr [ 5 -ne 6 ]
+-lt is less than                5 < 6     if test 5 -lt 6   if expr [ 5 -lt 6 ]
+-le is less than or equal to    5 <= 6    if test 5 -le 6   if expr [ 5 -le 6 ]
+-gt is greater than             5 > 6     if test 5 -gt 6   if expr [ 5 -gt 6 ]
+-ge is greater than or equal to 5 >= 6    if test 5 -ge 6   if expr [ 5 -ge 6 ]

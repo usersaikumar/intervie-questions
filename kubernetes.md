@@ -100,6 +100,27 @@
   - what resources are available
   - did the cluster state changed
   - application data is not stored in etcd
+
+## kubernetes Commands
+```
+kubectl get nodes
+```
+```
+kubectl create -f pod.yml
+```
+```
+kubectl apply -f pod.yml
+```
+```
+kubectl delete pod pod_name
+```
+```
+kubectl get pods
+```
+```
+kubectl get pods -o wide
+```
+
 - 
 ## creating a pod -- example
 ```

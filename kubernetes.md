@@ -41,7 +41,7 @@
   - mango DB
   - statefull set for stateful apps or databases
   - difficult
-- 
+
 - ApiVersions
   - app/v1
   - v1
@@ -76,7 +76,31 @@
 - **kube proxy**
   - forword requests
 ## **Master**
-
+- 4 process must run every master
+  - APi Server
+  - secheduler
+  - controller manager
+  - etcd
+- **APi Server**
+  - cluster gateway
+  - acts as a gatekeeper for authentication
+  - validate the request
+  - load balancer
+- **secheduler**
+  - assign the node for pod
+  - interlligent enough to assign node for pod
+  - communicate to kubelet
+- **controller manager**
+  - detects cluster changes
+  - communicates with secheduler
+- **etcd**
+  - etcd is cluster brain
+  - cluster changes get stored in the key value store
+  - is cluster healthy
+  - what resources are available
+  - did the cluster state changed
+  - application data is not stored in etcd
+- 
 ## creating a pod -- example
 ```
 apiVersion: v1

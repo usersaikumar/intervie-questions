@@ -1,5 +1,47 @@
 # Kubernetes
 ## Components of Kubernetes
+- pod
+  - smallest unit of k8s
+  - abstraction over container(like a layer)
+  - you can only interact with kubernetes layer
+  - usaully 1 application per pod(can write multi but recomandad 1)
+  - Database
+  - each pod gets its own IP address
+  - new ip address on re-creation
+- services
+  - permanent IP address
+  - lifecycle of pod and service are not connected
+  - external services
+  - internal services
+  - load balancer
+- ingress
+  - route traffic in to cluster
+- configmap
+  - external configuaration of your application
+- secrets
+  - same like as configmap
+  - maintain secret data
+  - used to store secret data
+  - based on 64 encoded
+- volumes
+  - data base 
+  - mounted or storage on local storage
+  - storage on remote, outside of k8s cluster
+  - k8s doesn't manage any data persistance
+- **pod blue prints**
+- deployments
+  - blueprints for my app pods
+  - you create deployments
+  - abstraction of pods
+  - DB cant be replica by deployments
+  - deployments for stateless apps
+- statefull set
+  - for statefull apps
+  - elastic search
+  - mango DB
+  - statefull set for stateful apps or databases
+  - difficult
+- 
 - ApiVersions
   - app/v1
   - v1
@@ -19,6 +61,21 @@
     - ports
       - containerPort:
 - status
+
+## k8s Architecture
+## **Worker Node**
+- each node has multiple pods on it
+- 3 process must be installed on every node
+  - container runtime
+  - kubelet
+  - kubeproxy
+- worker node do the actuall work
+- **kublet**
+  - kublet interact with both container and node
+  - kubelet start a pod with a container inside
+- **kube proxy**
+  - forword requests
+## **Master**
 
 ## creating a pod -- example
 ```

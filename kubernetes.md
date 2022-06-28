@@ -120,8 +120,6 @@ kubectl get pods
 ```
 kubectl get pods -o wide
 ```
-
-- 
 ## creating a pod -- example
 ```
 apiVersion: v1

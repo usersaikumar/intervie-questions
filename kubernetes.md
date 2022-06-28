@@ -42,6 +42,8 @@
   - statefull set for stateful apps or databases
   - difficult
 
+
+
 - ApiVersions
   - app/v1
   - v1
@@ -101,10 +103,52 @@
   - did the cluster state changed
   - application data is not stored in etcd
 
+
+## What is kubectl
+- command line tool(CLI) for k8s cluster
+- the most powerfull command among
+  - UI
+  - API
+  - CLI
+- master process
+- worker process
+
 ## kubernetes Commands
+- status of nodes
 ```
 kubectl get nodes
 ```
+- status of pods
+```
+kubectl get pods
+```
+- status of deployments
+```
+kubectl get deployments
+```
+## Layers of abstraction
+- deployment manages
+- replica set
+- pod is an abstraction
+- container
+
+
+- status of services
+```
+kubectl get services
+```
+- status of replicasets
+```
+kubectl get replicaset
+```
+- create nginx deployment
+```
+kubectl create deployment nginx-deployment --image=nginx
+```
+- edit ngnix deployment
+```
+kubectl edit deployment nginx-deployment
+``` 
 ```
 kubectl create -f pod.yml
 ```
@@ -119,6 +163,25 @@ kubectl get pods
 ```
 ```
 kubectl get pods -o wide
+```
+## debugung commands
+- to see logs
+```
+kubectl logs pod_name
+```
+- to see describe
+```
+kubectl describe pod pod_nmae
+```
+- to enter into the container(or)pod
+```
+kubectl exec -it pod_name -- bin/bash
+```
+## deleting deployment
+- to delete
+
+```
+kubectl delete deployment name
 ```
 ## creating a pod -- example
 ```

@@ -118,3 +118,45 @@ pipeline{
 ```
 ## deploying application in kubernetes by docker via jenkins
 ## deploying in EKS and GKE
+## Bildign maven
+```
+pipeline {
+    agent agent
+    tools { 
+        maven 'Maven'
+        jdk 'jdk1'
+    }
+     
+    stages {
+        stage('clone code') {
+            steps {
+                git branch: 'main',
+                url: 'https://github.com/usersaikumar/Maven-Practice.git'
+            }
+            
+        }
+       
+        stage('Compile stage') {
+            steps {
+                
+                bat "mvn -f my-app/pom.xml clean compile" 
+            }
+        }
+
+        stage('testing stage') {
+            steps {
+                
+                bat "mvn -f my-app/pom.xml test"
+            }
+        }
+        
+        stage('package') {
+            steps {
+                
+                bat "mvn -f my-app/pom.xml package"
+            }
+        }
+            
+    }   
+}
+```

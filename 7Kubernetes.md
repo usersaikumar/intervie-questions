@@ -41,28 +41,8 @@
   - mango DB
   - statefull set for stateful apps or databases
   - difficult
-===============================================================================================================
 
 
-- ApiVersions
-  - app/v1
-  - v1
-- kind
-  - pod
-  - deploy
-  - secerets
-  - services
-  - replicas
-  - statefull sets
-- metadata
-  - name
-- specs
-  - containers
-    - name
-    - image
-    - ports
-      - containerPort:
-- status
 
 ## k8s Architecture
 ## **Worker Node**

@@ -98,6 +98,9 @@ kubectl cluster-info
 ```
 
 ## kubernetes Commands
+- **Cheat sheet**
+https://kubernetes.io/docs/reference/kubectl/cheatsheet/
+
 - status of nodes
 ```
 kubectl get nodes
@@ -110,29 +113,27 @@ kubectl get pods
 ```
 kubectl get deployments
 ```
-## Layers of abstraction
-- deployment manages
-- replica set
-- pod is an abstraction
-- container
-
-
 - status of services
 ```
 kubectl get services
 ```
-- status of replicasets
+- status of replicas
 ```
 kubectl get replicaset
 ```
-- create nginx deployment
+- create deployment
 ```
-kubectl create deployment nginx-deployment --image=nginx
+kubectl create deployment deployment_name --image=image_name
 ```
-- edit ngnix deployment
+- edit deployment
 ```
-kubectl edit deployment nginx-deployment
+kubectl edit deployment deployment_name
 ``` 
+- create service
+
+```
+kubectl create service service_name --service_type="None"
+```
 ```
 kubectl create -f pod.yml
 ```
@@ -167,6 +168,13 @@ kubectl exec -it pod_name -- bin/bash
 ```
 kubectl delete deployment name
 ```
+## Layers of abstraction
+- deployment manages
+- replica set
+- pod is an abstraction
+- container
+
+
 ## creating a pod -- example
 ```
 apiVersion: v1

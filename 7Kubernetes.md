@@ -92,6 +92,10 @@
   - CLI
 - master process
 - worker process
+- To see status of cluster info
+```
+kubectl cluster-info
+```
 
 ## kubernetes Commands
 - status of nodes

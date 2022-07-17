@@ -45,6 +45,11 @@ create database database_name;
 - Functions
 
 ## SQL Basic Commands
+
+### comments
+```
+-- your comment 
+```
 - To view all data from a table
 
 ```
@@ -113,4 +118,39 @@ select
     Population * 2 AS Strength
 from city;
 ```
+- To avaoid duplicates
 
+```
+select distinct column_name
+from table_name;
+
+example
+
+select distinct CountryCode
+from city;
+```
+### WHERE command
+- To filter by condtion
+
+```
+select *
+from table_name
+where column_name (condion)
+
+example:
+
+select *
+from city
+where ID <= 10
+```
+
+- Note Symbols
+
+```
+< Less Than
+> Greater Than
+<= Lessthan or Equalto
+>= Greaterthan or Equalto
+= Euqualtoo
+!= (or) <> Not Equaltoo
+```

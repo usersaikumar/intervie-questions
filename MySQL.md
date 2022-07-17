@@ -162,3 +162,13 @@ where Name = 'delhi'
 = Euqualtoo
 != (or) <> Not Equaltoo
 ```
+- Date Formate
+
+```
+yyyy-mm-dd
+
+example
+
+1995-10-11
+```
+

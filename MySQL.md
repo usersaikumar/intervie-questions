@@ -131,6 +131,7 @@ from city;
 ```
 ### WHERE command
 - To filter by condtion
+- Note: **Observe String or Int**
 
 ```
 select *
@@ -142,6 +143,13 @@ example:
 select *
 from city
 where ID <= 10
+
+example2:
+
+select *
+from city
+where Name = 'delhi'
+
 ```
 
 - Note Symbols

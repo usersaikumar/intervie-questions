@@ -171,4 +171,9 @@ example
 
 1995-10-11
 ```
+### Operators
+- **AND**
+- **OR**
+- **NOT**
+- 
 

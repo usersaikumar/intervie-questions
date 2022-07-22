@@ -142,7 +142,7 @@ terrform destroy
 - ignore_changes
 
 
-### Terraform Code fro gcp
+### Terraform Code for gcp
 ```
 terraform {
   required_providers {

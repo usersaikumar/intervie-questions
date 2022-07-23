@@ -37,7 +37,16 @@
   - SNMPv1
   - SNMPv2c(commercial) -Updated with more reliable and security features
   - SNMPv3              -Improved Privacy, Authentication
-
+## TMN Architecture
+- Telecommunication Management Network
+- **TMN Hierarchy**
+1. NE layer
+  - It Defines Interface for Network Elements
+  - Ideally Covering all FCAPS areas
+2. Element Management Layer
+3. Network Management Layer
+4. Service Management Layer
+5. Business Management Layer
 ## FCAPS
 ## MIB
 - Management Information Base

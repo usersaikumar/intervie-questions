@@ -40,6 +40,41 @@
 
 ## FCAPS
 ## MIB
+- Management Information Base
+- The formate of MIB is defined as part of **SNMP**
+- MIB is a SNMP flat-file, nonrelational database that describe devices being monitored.
+- **Components**
+  - Address
+    - Specify the Address
+    - **Ex** 135.254.214.63
+  - Advanced
+    - Address
+    - Port(by Defult: **161**)
+    - Read Community
+    - Write Community
+    - SNMP Version (Present Version **V2**)
+  - OID
+    - Object Indentifiers
+    - OID uniquely Identify managed objects in a MIB hierarchy
+  - Operations
+    - Get Next
+    - Get
+    - Get Bulk
+    - Get Subtree
+    - Walk
+    - Set
+  - SNMP MIBs
+    - MIB Tree
+    - Attributes
+    - Read-Only(ro) Represents as Leaf
+      - Set Operation Doesn't work here
+    - Read-Write(rw) Represents as Pen
+      - Set Operation Work here
+  - Result Table
+    - Name/OID
+    - Value
+    - Type
+    - IP:Port
 ## TCP/IP
 ## ISO/OSI
 ## Network Layers

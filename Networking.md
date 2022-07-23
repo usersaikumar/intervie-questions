@@ -66,9 +66,9 @@
   - SNMP MIBs
     - MIB Tree
     - Attributes
-    - Read-Only(ro) Represents as Leaf
+    - Read-Only(**ro**) Represents as Leaf
       - Set Operation Doesn't work here
-    - Read-Write(rw) Represents as Pen
+    - Read-Write(**rw**) Represents as Pen
       - Set Operation Work here
   - Result Table
     - Name/OID
@@ -77,4 +77,16 @@
     - IP:Port
 ## TCP/IP
 ## ISO/OSI
+- **OSI** - Open System Interconnection
+- **ISO** - International Organization of Standardization
 ## Network Layers
+- Application Layers
+  - Network Applications
+    - **EX** Chrome, Mozrilla, Outlook, Skype, etc.,
+  - It will depends on Application Layer Protocals
+- Presentation Layers
+- Session Layers
+- Transport Layers
+- Network Layers
+- Data Link Layers
+- Physical Layers

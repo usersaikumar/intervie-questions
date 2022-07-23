@@ -81,11 +81,30 @@
 - **ISO** - International Organization of Standardization
 ## Network Layers
 - Application Layers
+  - This is 7th Layer in OSI Model
+  - Input & OutPut of Data
+  - Sending & Recieving Data
   - Network Applications
     - **EX** Chrome, Mozrilla, Outlook, Skype, etc.,
   - It will depends on Application Layer Protocals
+  - **FTP** - File Transfer Protocal
+    - File Transfer
+  - **HTTP & HTTPS** - Hyper Text Transfer Protocal Secure
+    - Web Surfing
+  - **SMPT** - Simple Mail Transfer Protocal
+    - Emails @
+  - **Telnet** - Tele Type Network
+    - Virtual Terminals
 - Presentation Layers
+  - It takes data from Application Layer
+  - It specifies the architecture for independent data transfer
+  - It encodes & decodes the data
+  - It Compress & Decompress the data
+  - It encyrpts & decrypts the data
+  - **SSL** - Secure Socket Layer Portcal
+    - Used for Encryption & Decryption
 - Session Layers
+  - 
 - Transport Layers
 - Network Layers
 - Data Link Layers

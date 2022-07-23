@@ -48,6 +48,11 @@
 4. Service Management Layer
 5. Business Management Layer
 ## FCAPS
+- Fault Management
+- Configure Management
+- Accounting Management
+- Performance Management
+- Security Management
 ## MIB
 - Management Information Base
 - The formate of MIB is defined as part of **SNMP**

@@ -119,7 +119,7 @@
     - File Transfer
   - **HTTP & HTTPS** - Hyper Text Transfer Protocal Secure
     - Web Surfing
-  - **SMPT** - Simple Mail Transfer Protocal
+  - **SMTP** - Simple Mail Transfer Protocal
     - Emails @
   - **Telnet** - Tele Type Network
     - Virtual Terminals

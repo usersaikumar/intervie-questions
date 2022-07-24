@@ -134,11 +134,31 @@
     - Used for Encryption & Decryption
 
 - **Session Layers**
-  - 
+  - It manages and controls user session & Dialougs
+  - It reports the upper layer errors
+  - here only host communication is processed
+  - No protocals involved in this session layer
+  - Files are received in tha Data Packets Formate
+  - This layer helps in session management and Authentication.
 
 - **Transport Layers**
-
+  - It manages end to end message delivery in network by giving acknowledgement to users
+  - It provides Sequential packets delivery through error recovery and flow control mechanisms
+  - It provides Connection less oriented packet delivery
+  - Multiplexing and segmenting done here
+  - This layer involves in Segmenting, Flow control & error control
+  - Segmenting contains Port & Sequence numbers and this Numbers helps to connecting to the Applications(Chrome, Mozila)
+  - It performs two types of services:
+  1. Connection oriented transmission done via TCP(Transimission control protocol)
+  2. Connectionless transmission done via UDP(User datagram protocol)
+  
 - **Network Layers**
+  - Data devided in to Packets
+  - It determines the data transfer mechanism between network devices
+  - It determines the path for flow control of data
+  - IP(Internet protocol) & Router are involved in this layer
+  - IP addressing(IPv4 & IPv6) is done in this layer called Logical addressing
+  - 
 
 - **Data Link Layers**
 

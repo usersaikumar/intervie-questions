@@ -2,6 +2,7 @@
 
 ## NMS
 - Network Management System
+- It act like as a eyes of Network  
 - NMS can manage a complete Networks(Multiple Networks/Vendors)
 - NMS has all functionalities of EMS
 - NMS can manage number of EMS es
